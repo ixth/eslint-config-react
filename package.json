@@ -1,0 +1,28 @@
+{
+  "private": false,
+  "name": "@ixth/eslint-config-react",
+  "version": "0.0.1",
+  "description": "My Preferred ESLint Config For React Projects",
+  "homepage": "https://github.com/ixth/eslint-config-react",
+  "repository": "git@github.com:ixth/eslint-config-react.git",
+  "author": {
+    "name": "Mikhail Menshikov",
+    "email": "ainop@ya.ru"
+  },
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint *.js"
+  },
+  "peerDependencies": {
+    "eslint": ">= 3"
+  },
+  "dependencies": {
+    "@babel/eslint-parser": "^7.19.1",
+    "@ixth/eslint-config-base": "github:ixth/eslint-config-base#v0.0.7",
+    "eslint-plugin-jsx-a11y": "^6.6.1",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.31.11",
+    "eslint-plugin-react-hooks": "^4.6.0"
+  }
+}
